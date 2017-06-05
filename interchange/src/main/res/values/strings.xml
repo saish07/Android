@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Interchange</string>
+    <string name="title">CodeKul.com</string>
+
+       <string-array name="courses">
+           <item>Android</item>
+           <item>Angular</item>
+           <item>Java</item>
+           <item>Spring</item>
+       </string-array>
+</resources>

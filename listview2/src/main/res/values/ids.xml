@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="lstCountries" type="id" />
+    <item name="listview" type="id">5</item>
+    <item name="etCountry" type="id">5</item>
+</resources>

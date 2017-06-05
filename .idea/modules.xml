@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/App.iml" filepath="$PROJECT_DIR$/App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activitystate/activitystate.iml" filepath="$PROJECT_DIR$/activitystate/activitystate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appcompactacitivity/appcompactacitivity.iml" filepath="$PROJECT_DIR$/appcompactacitivity/appcompactacitivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialog/dialog.iml" filepath="$PROJECT_DIR$/dialog/dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragments/fragments.iml" filepath="$PROJECT_DIR$/fragments/fragments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/handleruntimechangesv1/handleruntimechangesv1.iml" filepath="$PROJECT_DIR$/handleruntimechangesv1/handleruntimechangesv1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/handleruntimechangesv2/handleruntimechangesv2.iml" filepath="$PROJECT_DIR$/handleruntimechangesv2/handleruntimechangesv2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interchange/interchange.iml" filepath="$PROJECT_DIR$/interchange/interchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listview2/listview2.iml" filepath="$PROJECT_DIR$/listview2/listview2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resources/resources.iml" filepath="$PROJECT_DIR$/resources/resources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toast/toast.iml" filepath="$PROJECT_DIR$/toast/toast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewanimation/viewanimation.iml" filepath="$PROJECT_DIR$/viewanimation/viewanimation.iml" />
+    </modules>
+  </component>
+</project>
