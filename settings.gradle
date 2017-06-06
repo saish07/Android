@@ -1,1 +1,1 @@
-include ':app', ':login', ':listview', ':listview2', ':viewanimation', ':appcompactacitivity', ':activitystate', ':handleruntimechangesv1', ':resources', ':handleruntimechangesv2', ':interchange', ':fragments', ':toast', ':dialog'
+include ':app', ':login', ':listview', ':listview2', ':viewanimation', ':appcompactacitivity', ':activitystate', ':handleruntimechangesv1', ':resources', ':handleruntimechangesv2', ':interchange', ':fragments', ':toast', ':dialog', ':statusbar'

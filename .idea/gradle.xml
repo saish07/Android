@@ -20,6 +20,7 @@
             <option value="$PROJECT_DIR$/listview2" />
             <option value="$PROJECT_DIR$/login" />
             <option value="$PROJECT_DIR$/resources" />
+            <option value="$PROJECT_DIR$/statusbar" />
             <option value="$PROJECT_DIR$/toast" />
             <option value="$PROJECT_DIR$/viewanimation" />
           </set>
