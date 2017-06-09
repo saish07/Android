@@ -10,10 +10,13 @@
       <module fileurl="file://$PROJECT_DIR$/fragments/fragments.iml" filepath="$PROJECT_DIR$/fragments/fragments.iml" />
       <module fileurl="file://$PROJECT_DIR$/handleruntimechangesv1/handleruntimechangesv1.iml" filepath="$PROJECT_DIR$/handleruntimechangesv1/handleruntimechangesv1.iml" />
       <module fileurl="file://$PROJECT_DIR$/handleruntimechangesv2/handleruntimechangesv2.iml" filepath="$PROJECT_DIR$/handleruntimechangesv2/handleruntimechangesv2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intent&amp;intentfilters/intent&amp;intentfilters.iml" filepath="$PROJECT_DIR$/intent&amp;intentfilters/intent&amp;intentfilters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intentandintentfilters/intentandintentfilters.iml" filepath="$PROJECT_DIR$/intentandintentfilters/intentandintentfilters.iml" />
       <module fileurl="file://$PROJECT_DIR$/interchange/interchange.iml" filepath="$PROJECT_DIR$/interchange/interchange.iml" />
       <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />
       <module fileurl="file://$PROJECT_DIR$/listview2/listview2.iml" filepath="$PROJECT_DIR$/listview2/listview2.iml" />
       <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/playerinfo/playerinfo.iml" filepath="$PROJECT_DIR$/playerinfo/playerinfo.iml" />
       <module fileurl="file://$PROJECT_DIR$/resources/resources.iml" filepath="$PROJECT_DIR$/resources/resources.iml" />
       <module fileurl="file://$PROJECT_DIR$/statusbar/statusbar.iml" filepath="$PROJECT_DIR$/statusbar/statusbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/toast/toast.iml" filepath="$PROJECT_DIR$/toast/toast.iml" />
