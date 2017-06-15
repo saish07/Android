@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="btnNew">New</string>
+    <string name="btnEdit">Edit</string>
+    <string name="btnName">Name</string>
+    <string name="btnTxt" />
+</resources>

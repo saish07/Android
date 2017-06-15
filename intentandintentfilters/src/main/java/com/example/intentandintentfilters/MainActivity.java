@@ -18,13 +18,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onOk(View view){
-        my();
+        view();
 
     }
 
     private void my(){
         Intent intent = new Intent();
-        intent.setAction("com.codekul.action.RED");
+        intent.setAction("com.codekul.action.GREEN");
         intent.addCategory("com.codekul.category.RGB");
         startActivity(intent);
     }
@@ -53,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void view(){
         Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("http://codekul.com"));
+        intent.setData(Uri.parse("http://google.com"));
         startActivity(intent);
     }
+
 }

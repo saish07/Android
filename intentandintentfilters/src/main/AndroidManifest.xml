@@ -20,6 +20,7 @@
         <activity android:name=".RedActivity">
         <intent-filter>
             <action android:name="com.codekul.action.RED" />
+            <action android:name="android.intent.action.SHOW_APP_INFO"/>
             <action android:name="android.intent.action.DIAL"/>
             <category android:name="com.codekul.category.RBG" />
             <category android:name="android.intent.category.DEFAULT"/>

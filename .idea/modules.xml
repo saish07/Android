@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/appcompactacitivity/appcompactacitivity.iml" filepath="$PROJECT_DIR$/appcompactacitivity/appcompactacitivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/dialog/dialog.iml" filepath="$PROJECT_DIR$/dialog/dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/externalstorage/externalstorage.iml" filepath="$PROJECT_DIR$/externalstorage/externalstorage.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragments/fragments.iml" filepath="$PROJECT_DIR$/fragments/fragments.iml" />
       <module fileurl="file://$PROJECT_DIR$/handleruntimechangesv1/handleruntimechangesv1.iml" filepath="$PROJECT_DIR$/handleruntimechangesv1/handleruntimechangesv1.iml" />
       <module fileurl="file://$PROJECT_DIR$/handleruntimechangesv2/handleruntimechangesv2.iml" filepath="$PROJECT_DIR$/handleruntimechangesv2/handleruntimechangesv2.iml" />
@@ -16,8 +17,13 @@
       <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />
       <module fileurl="file://$PROJECT_DIR$/listview2/listview2.iml" filepath="$PROJECT_DIR$/listview2/listview2.iml" />
       <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notepad/notepad.iml" filepath="$PROJECT_DIR$/notepad/notepad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/np/np.iml" filepath="$PROJECT_DIR$/np/np.iml" />
       <module fileurl="file://$PROJECT_DIR$/playerinfo/playerinfo.iml" filepath="$PROJECT_DIR$/playerinfo/playerinfo.iml" />
       <module fileurl="file://$PROJECT_DIR$/resources/resources.iml" filepath="$PROJECT_DIR$/resources/resources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/runtimepermissions/runtimepermissions.iml" filepath="$PROJECT_DIR$/runtimepermissions/runtimepermissions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharedprefs/sharedprefs.iml" filepath="$PROJECT_DIR$/sharedprefs/sharedprefs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlite/sqlite.iml" filepath="$PROJECT_DIR$/sqlite/sqlite.iml" />
       <module fileurl="file://$PROJECT_DIR$/statusbar/statusbar.iml" filepath="$PROJECT_DIR$/statusbar/statusbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/toast/toast.iml" filepath="$PROJECT_DIR$/toast/toast.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewanimation/viewanimation.iml" filepath="$PROJECT_DIR$/viewanimation/viewanimation.iml" />

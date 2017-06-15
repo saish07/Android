@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/appcompactacitivity" />
             <option value="$PROJECT_DIR$/dialog" />
+            <option value="$PROJECT_DIR$/externalstorage" />
             <option value="$PROJECT_DIR$/fragments" />
             <option value="$PROJECT_DIR$/handleruntimechangesv1" />
             <option value="$PROJECT_DIR$/handleruntimechangesv2" />
@@ -21,8 +22,13 @@
             <option value="$PROJECT_DIR$/listview" />
             <option value="$PROJECT_DIR$/listview2" />
             <option value="$PROJECT_DIR$/login" />
+            <option value="$PROJECT_DIR$/notepad" />
+            <option value="$PROJECT_DIR$/np" />
             <option value="$PROJECT_DIR$/playerinfo" />
             <option value="$PROJECT_DIR$/resources" />
+            <option value="$PROJECT_DIR$/runtimepermissions" />
+            <option value="$PROJECT_DIR$/sharedprefs" />
+            <option value="$PROJECT_DIR$/sqlite" />
             <option value="$PROJECT_DIR$/statusbar" />
             <option value="$PROJECT_DIR$/toast" />
             <option value="$PROJECT_DIR$/viewanimation" />
