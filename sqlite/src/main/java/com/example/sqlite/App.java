@@ -19,6 +19,7 @@ public class App extends Application {
     }
 
     public DbHelper helper(){
+
         return helper;
     }
 }

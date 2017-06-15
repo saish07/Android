@@ -11,10 +11,21 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+
+        findViewById(R.id.imageView3).setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 
-    Db.items.add(new Main2Activity(R.mipmap.ic_launcher, "Android", "12"));
 
+    public void onEdit(View view){
+        startActivity(new Intent(this, FileStorage.class));
+        finish();
+    }
 
 }
 
