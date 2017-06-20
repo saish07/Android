@@ -10,8 +10,8 @@
         android:id="@+id/imgIC"
         android:layout_width="97dp"
         android:layout_height="110dp"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:padding="10dp"/>
+        android:padding="10dp"
+        app:srcCompat="@drawable/ic_insert_drive_file_black_24dp" />
 
     <LinearLayout
         android:layout_width="170dp"

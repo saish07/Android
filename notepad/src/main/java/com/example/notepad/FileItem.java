@@ -10,9 +10,11 @@ class FileItem {
     public String nm;
     public String sz;
 
-    public FileItem(int ic, String nm, String mdfd, String sz){
+    public FileItem(int ic, String nm, String sz){
         this.ic=ic;
         this.nm=nm;
         this.sz=sz;
     }
+
+
 }

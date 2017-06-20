@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/activitystate" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/appcompactacitivity" />
+            <option value="$PROJECT_DIR$/contactapp" />
             <option value="$PROJECT_DIR$/dialog" />
             <option value="$PROJECT_DIR$/externalstorage" />
             <option value="$PROJECT_DIR$/fragments" />
@@ -23,10 +24,14 @@
             <option value="$PROJECT_DIR$/listview2" />
             <option value="$PROJECT_DIR$/login" />
             <option value="$PROJECT_DIR$/notepad" />
+            <option value="$PROJECT_DIR$/notepadapp" />
             <option value="$PROJECT_DIR$/np" />
             <option value="$PROJECT_DIR$/playerinfo" />
             <option value="$PROJECT_DIR$/resources" />
             <option value="$PROJECT_DIR$/runtimepermissions" />
+            <option value="$PROJECT_DIR$/service" />
+            <option value="$PROJECT_DIR$/service2" />
+            <option value="$PROJECT_DIR$/service3" />
             <option value="$PROJECT_DIR$/sharedprefs" />
             <option value="$PROJECT_DIR$/sqlite" />
             <option value="$PROJECT_DIR$/statusbar" />

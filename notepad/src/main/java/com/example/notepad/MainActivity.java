@@ -13,11 +13,64 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-        public void onNew(View view){
-            startActivity(new Intent(this, Main2Activity.class));
-        }
+    public void onNew(View view) {
 
-        public void onEdit(View view){
-            startActivity(new Intent(this, FileStorage.class));
-        }
+        startActivity(new Intent(this, Main2Activity.class));
+    }
+
+    public void onEdit(View view) {
+
+        startActivity(new Intent(this, FileStorage.class));
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

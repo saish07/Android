@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Main2Activity" />
-        <activity android:name=".FileStorage"></activity>
+        <activity android:name=".FileStorage" />
+        <activity android:name=".Edit"></activity>
     </application>
 
 </manifest>

@@ -4,4 +4,6 @@
     <string name="btnEdit">Edit</string>
     <string name="btnName">Name</string>
     <string name="btnTxt" />
+    <string name="btnname" />
+    <string name="btnWrite" />
 </resources>
