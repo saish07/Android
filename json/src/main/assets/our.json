@@ -1,0 +1,28 @@
+{
+  "keyString": "value",
+  "keyNum": 123,
+  "xyz": 65.80,
+  "adds": [
+    "Pune",
+    "Mumbai"
+  ],
+  "mouse": {
+    "cost": 1234,
+    "name": "headphones"
+  },
+  "parse": "Parsing is nothing but extracting the data from bigger chunk",
+  "devices": [
+    {
+      "cost": 1234,
+      "name": "headphones"
+    },
+    {
+      "cost": 1234,
+      "name": "headphones"
+    },
+    {
+      "cost": 1234,
+      "name": "headphones"
+    }
+  ]
+}
