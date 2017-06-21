@@ -10,6 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.io.File;
+import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -31,10 +32,7 @@ public class Edit extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Animation animation = AnimationUtils.loadAnimation(Edit.this,R.anim.bubble);
-                findViewById(R.id.imgListBack).startAnimation(animation);
-
-                Intent intentList = new Intent(Edit.this,MainActivity.class);
+                Intent intentList = new Intent(Edit.this, MainActivity.class);
                 startActivity(intentList);
                 finish();
             }
@@ -46,15 +44,15 @@ public class Edit extends AppCompatActivity {
         final List<FileItem> fileItems = new ArrayList<>();
 
         File file = getFilesDir();
-        File []files = file.listFiles();
+        File[] files = file.listFiles();
 
-        for(File fl:files){
+        for (File fl : files) {
             Date date = new Date(fl.lastModified());
 
-            fileItems.add(new FileItem(R.drawable.ic_note_black_24dp,fl.getName(),""+(new SimpleDateFormat("dd-MMM-yyyy HH-mm-ss").format(date)),""+fl.length(),""));
+            fileItems.add(new FileItem(R.drawable.ic_note_black_24dp, fl.getName(), "" + (new SimpleDateFormat("dd-MMM-yyyy HH:mm").format(date)), "" + fl.length(), ""));
         }
 
-        ((ListView)findViewById(R.id.lstListOfFiles)).setAdapter(new FileAdapter(this,fileItems));
+        ((ListView) findViewById(R.id.lstListOfFiles)).setAdapter(new FileAdapter(this, fileItems));
 
         //opening individual file in new activity for editing with delete and back option
         ((ListView) findViewById(R.id.lstListOfFiles)).setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -63,18 +61,19 @@ public class Edit extends AppCompatActivity {
 
                 FileItem clickedItem = fileItems.get(position);
 
-                String strFileName = clickedItem.txtFlName.toString();
+                String strFileName = clickedItem.txtFlName;
 
                 //putting file's name and notepad text into bundles
-                Bundle bundle=new Bundle();
+                Bundle bundle = new Bundle();
 
                 //bundle.putInt(KEY_POSITION,position);
-                bundle.putString(KEY_NAME,strFileName);
+                bundle.putString(KEY_NAME, strFileName);
                 //bundle.putString(KEY_INFO,strNoteInfo);
 
-                startActivity(new Intent(Edit.this,FileEdit.class).putExtras(bundle));
+                startActivity(new Intent(Edit.this, FileEdit.class).putExtras(bundle));
             }
         });
 
     }
 }
+

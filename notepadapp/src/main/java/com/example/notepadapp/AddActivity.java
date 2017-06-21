@@ -34,21 +34,13 @@ public class AddActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Animation animation = AnimationUtils.loadAnimation(AddActivity.this,R.anim.bubble);
-                findViewById(R.id.imgSave2).startAnimation(animation);
-
                 String filename = ((EditText)findViewById(R.id.edtName)).getText().toString();
 
                 if(filename.equals("")){
 
                     AlertDialog.Builder builder = new AlertDialog.Builder((AddActivity.this));
                     builder.setIcon(R.mipmap.ic_launcher_round);
-                    builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-
-                        }
-                    });
+                    builder.setMessage("Enter filename");
 
                     builder.create().show();
 
@@ -70,6 +62,7 @@ public class AddActivity extends AppCompatActivity {
                     }
 
                     findViewById(R.id.edtName).setEnabled(false);
+                    Toast.makeText(AddActivity.this, "Saved", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -80,8 +73,6 @@ public class AddActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Animation animation = AnimationUtils.loadAnimation(AddActivity.this,R.anim.bubble);
-                findViewById(R.id.imgSave).startAnimation(animation);
                 EditText fileName = (EditText)findViewById(R.id.edtName);
                 String textNote = ((EditText)findViewById(R.id.edtData)).getText().toString();
                 String textFilename = ((EditText)findViewById(R.id.edtName)).getText().toString();

@@ -17,27 +17,32 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         final List<MyItem> dataset = new ArrayList<>();
         dataset.add(new MyItem(R.drawable.ic_add_black_24dp,"ADD"));
         dataset.add(new MyItem(R.drawable.ic_edit_black_24dp, "EDIT"));
 
-        MyAdapter myAdapter = new MyAdapter(this, dataset);
-        ((GridView) findViewById(R.id.grdLayout)).setAdapter(myAdapter);
+        MyAdapter myAdapter = new MyAdapter(this,dataset);
+        ((GridView)findViewById(R.id.grdView)).setAdapter(myAdapter);
 
-        ((GridView) findViewById(R.id.grdLayout)).setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        ((GridView) findViewById(R.id.grdView)).setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-
-                if (dataset.get(position).equals(dataset.get(0))) {
+                if(dataset.get(position).equals(dataset.get(0))) {
                     Intent intent = new Intent(MainActivity.this, AddActivity.class);
                     startActivity(intent);
-                } else if (dataset.get(position).equals(dataset.get(1))) {
-                    Intent intent = new Intent(MainActivity.this, Edit.class);
-                    startActivity(intent);
                 }
-            }
-        });
+                    else if (dataset.get(position).equals(dataset.get(1))){
+                        Intent intent = new Intent(MainActivity.this, Edit.class);
+                        startActivity(intent);
+                    }
+                }
+            });
+        }
     }
-}
+
+
+
+
+

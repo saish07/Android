@@ -29,7 +29,7 @@ public class FileEdit extends AppCompatActivity {
 
         Intent intentResp = getIntent();
         Bundle bundle = intentResp.getExtras();
-        final String strFileName=bundle.getString(KEY_NAME);
+        final String strFileName = bundle.getString(KEY_NAME);
 
         ((TextView)findViewById(R.id.edtName)).setText(strFileName);
 
@@ -42,31 +42,23 @@ public class FileEdit extends AppCompatActivity {
         }
 
 
-        //going back to main activity
         findViewById(R.id.imgBack).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Animation animation = AnimationUtils.loadAnimation(FileEdit.this,R.anim.bubble);
-                findViewById(R.id.imgBack).startAnimation(animation);
 
                 gotoMainActivity();
             }
         });
 
-
-        //deleting item from the list
+        
         findViewById(R.id.imgDelete).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Animation animation = AnimationUtils.loadAnimation(FileEdit.this,R.anim.bubble);
-                findViewById(R.id.imgDelete).startAnimation(animation);
-
                 String filePath = getFilesDir().getAbsolutePath();
                 File file = new File(filePath,strFileName);
                 Boolean deletedFileStatus = file.delete();
-                Toast.makeText(FileEdit.this,"Note Deleted",Toast.LENGTH_SHORT).show();
+                Toast.makeText(FileEdit.this,"Deleted",Toast.LENGTH_SHORT).show();
                 gotoMainActivity();
 
             }
@@ -76,13 +68,10 @@ public class FileEdit extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Animation animation = AnimationUtils.loadAnimation(FileEdit.this,R.anim.bubble);
-                findViewById(R.id.imgSave).startAnimation(animation);
-
                 String afterEdit = ((EditText)findViewById(R.id.edtData)).getText().toString();
 
                 if((strTxtFile.equals(afterEdit))){
-                    Toast.makeText(FileEdit.this,"Nothing edited...!!",Toast.LENGTH_LONG).show();
+                    Toast.makeText(FileEdit.this,"Nothing edited",Toast.LENGTH_LONG).show();
                 }else {
                     //((EditText)findViewById(R.id.edtTempNotepad)).setText(" ");
 
@@ -98,6 +87,7 @@ public class FileEdit extends AppCompatActivity {
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
+                    Toast.makeText(FileEdit.this, "Saved", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -111,6 +101,7 @@ public class FileEdit extends AppCompatActivity {
         String str = new File(strFileName).getAbsoluteFile().toString();
 
         FileInputStream fis = openFileInput(strFileName);
+
         StringBuilder builder = new StringBuilder();
 
         while (true){
@@ -133,6 +124,3 @@ public class FileEdit extends AppCompatActivity {
         finish();
     }
 }
-
-
-
