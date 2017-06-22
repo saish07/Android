@@ -1,9 +1,10 @@
 {
   "keyString": "value",
   "keyNum": 123,
-  "xyz": 65.80,
+  "xyz": 78.96,
   "adds": [
     "Pune",
+    "Sangli",
     "Mumbai"
   ],
   "mouse": {

@@ -1,9 +1,10 @@
-package com.example.json.mouse;
+
+package com.example.json.Domain;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class java {
+public class Mouse {
 
     @SerializedName("cost")
     @Expose
@@ -27,6 +28,5 @@ public class java {
     public void setName(String name) {
         this.name = name;
     }
-
 
 }

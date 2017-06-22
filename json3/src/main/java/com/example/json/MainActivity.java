@@ -1,13 +1,19 @@
 package com.example.json;
 
-import android.bluetooth.BluetoothClass;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.example.json.Domain.Device;
+import com.example.json.Domain.Mouse;
+import com.example.json.Domain.Our;
+import com.google.gson.Gson;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,10 +25,10 @@ public class MainActivity extends AppCompatActivity {
         parseUsingGson();
     }
 
+
     private void parseUsingNativeApi() {
         String json = Util.readAssests(this);
         Log.i("@codekul", "We Have - " + json);
-
         try {
             JSONObject obj = new JSONObject(json);
             Log.i("@codekul", "Key Int - " + obj.getInt("keyNum"));
@@ -54,15 +60,12 @@ public class MainActivity extends AppCompatActivity {
         Our our = gson.fromJson(Util.readAssests(this), Our.class);
         Log.i("@codekul", "Integer - " + our.getKeyNum());
         Log.i("@codekul", "String - " + our.getKeyString());
-
         for (String add : our.getAdds()) {
             Log.i("@codekul", "Add - " + add);
         }
-
         Mouse mouse = our.getMouse();
         Log.i("@codekul", "Mouse Name - " + mouse.getName() + " Mouse Cost - " + mouse.getCost());
-
-        for (BluetoothClass.Device device : our.getDevices()) {
+        for (Device device : our.getDevices()) {
             Log.i("@codekul", "device Name - " + device.getName() + " device Cost - " + device.getCost());
         }
     }

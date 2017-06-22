@@ -73,6 +73,7 @@ public class FileEdit extends AppCompatActivity {
                 if((strTxtFile.equals(afterEdit))){
                     Toast.makeText(FileEdit.this,"Nothing edited",Toast.LENGTH_LONG).show();
                 }else {
+
                     //((EditText)findViewById(R.id.edtTempNotepad)).setText(" ");
 
                     FileOutputStream fos = null;

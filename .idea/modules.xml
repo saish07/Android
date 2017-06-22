@@ -12,10 +12,14 @@
       <module fileurl="file://$PROJECT_DIR$/fragments/fragments.iml" filepath="$PROJECT_DIR$/fragments/fragments.iml" />
       <module fileurl="file://$PROJECT_DIR$/handleruntimechangesv1/handleruntimechangesv1.iml" filepath="$PROJECT_DIR$/handleruntimechangesv1/handleruntimechangesv1.iml" />
       <module fileurl="file://$PROJECT_DIR$/handleruntimechangesv2/handleruntimechangesv2.iml" filepath="$PROJECT_DIR$/handleruntimechangesv2/handleruntimechangesv2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/http/http.iml" filepath="$PROJECT_DIR$/http/http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/http2/http2.iml" filepath="$PROJECT_DIR$/http2/http2.iml" />
       <module fileurl="file://$PROJECT_DIR$/intent&amp;intentfilters/intent&amp;intentfilters.iml" filepath="$PROJECT_DIR$/intent&amp;intentfilters/intent&amp;intentfilters.iml" />
       <module fileurl="file://$PROJECT_DIR$/intentandintentfilters/intentandintentfilters.iml" filepath="$PROJECT_DIR$/intentandintentfilters/intentandintentfilters.iml" />
       <module fileurl="file://$PROJECT_DIR$/interchange/interchange.iml" filepath="$PROJECT_DIR$/interchange/interchange.iml" />
       <module fileurl="file://$PROJECT_DIR$/json/json.iml" filepath="$PROJECT_DIR$/json/json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/json2/json2.iml" filepath="$PROJECT_DIR$/json2/json2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/json3/json3.iml" filepath="$PROJECT_DIR$/json3/json3.iml" />
       <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />
       <module fileurl="file://$PROJECT_DIR$/listview2/listview2.iml" filepath="$PROJECT_DIR$/listview2/listview2.iml" />
       <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
