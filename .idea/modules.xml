@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/handleruntimechangesv2/handleruntimechangesv2.iml" filepath="$PROJECT_DIR$/handleruntimechangesv2/handleruntimechangesv2.iml" />
       <module fileurl="file://$PROJECT_DIR$/http/http.iml" filepath="$PROJECT_DIR$/http/http.iml" />
       <module fileurl="file://$PROJECT_DIR$/http2/http2.iml" filepath="$PROJECT_DIR$/http2/http2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpp/httpp.iml" filepath="$PROJECT_DIR$/httpp/httpp.iml" />
       <module fileurl="file://$PROJECT_DIR$/intent&amp;intentfilters/intent&amp;intentfilters.iml" filepath="$PROJECT_DIR$/intent&amp;intentfilters/intent&amp;intentfilters.iml" />
       <module fileurl="file://$PROJECT_DIR$/intentandintentfilters/intentandintentfilters.iml" filepath="$PROJECT_DIR$/intentandintentfilters/intentandintentfilters.iml" />
       <module fileurl="file://$PROJECT_DIR$/interchange/interchange.iml" filepath="$PROJECT_DIR$/interchange/interchange.iml" />
